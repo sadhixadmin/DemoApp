@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "HelloServlet", urlPatterns = {"/hello"})
+@WebServlet(name = "HelloServlet Java", urlPatterns = {"/hello"})
 public class HelloServlet extends HttpServlet {
 
     @Override
